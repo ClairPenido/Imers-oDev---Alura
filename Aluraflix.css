@@ -1,0 +1,77 @@
+body {
+  text-align:center;
+  min-height: 500px;
+  background-image: url('https://cdn.pixabay.com/photo/2016/03/23/17/33/curtain-1275200_640.png');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  font-family: 'Dela Gothic One', cursive;
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 45px;
+  color: #c0392b;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 7px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+h3 {
+  display: inline-flex;
+  flex-direction: row;
+  margin:5px;
+  justify-content:space-around;
+  text-align:center;
+  position: relative;
+  bottom:134px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #ecf0f1;
+}
+
+input{
+  flex-direction: row;
+  border-radius: 0;
+  border: 2px solid #000;
+  font-family: 'Noto Sans JP', sans-serif;
+  
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*width: 250px; /* largura */
+  /* height: 5px; */
+    
+}
+
+
+h4 {
+  font-family: font-family: 'Noto Sans JP', sans-serif;
+  color: #ecf0f1;
+}
